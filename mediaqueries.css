@@ -1,17 +1,23 @@
 @media screen and (max-width: 1400px) {
     #profile {
-      height: fit-content;
-      height: calc(83vh);
+      height: 83vh;
       margin-bottom: 6rem;
     }
     .about-containers {
       flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
     }
   }
   
   @media screen and (max-width: 1200px) {
     #desktop-nav {
       display: none;
+    }
+    #hamburger-nav {
+      display: flex;
     }
     #experience,
     .experience-details-container {
@@ -20,9 +26,6 @@
     #profile,
     .section-container {
       display: block;
-    }
-    #hamburger-nav {
-      display: flex;
     }
     .arrow {
       display: none;
@@ -35,7 +38,12 @@
       margin: 0 5%;
     }
     .section__pic-container {
+      width: 275px;
+      height: 275px;
       margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
     }
   }
   
@@ -80,7 +88,7 @@
     }
     .section__pic-container {
       width: auto;
-      height: 50vw;
+      height: 46vw;
       justify-content: center;
     }
     .section__text__p2 {
