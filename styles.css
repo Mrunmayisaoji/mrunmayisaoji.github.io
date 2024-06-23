@@ -371,7 +371,9 @@ article .icon {
 }
 
 .project-three {
+  border-radius: 2rem;
   width:60%;
+  height: 60%;
 }
 
 .project-title {
